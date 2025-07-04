@@ -3,9 +3,9 @@ from dotenv import load_dotenv
 from core.automation_flow import executar_fluxo
 from services.amil_login import AmilLogin
 from services.relatorios.amil_relatorio import *
-from config import obter_credenciais  # certifique-se que essa função está nesse arquivo
+from credenciais import obter_credenciais  # certifique-se que essa função está nesse arquivo
 from domain.relatorio import Relatorio
-from config_apolices import EMPRESAS_APOLICES
+from apolices_por_empresa import EMPRESAS_APOLICES
 
 load_dotenv()
 
